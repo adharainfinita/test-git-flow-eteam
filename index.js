@@ -7,3 +7,12 @@ function laCajaDePandora(numero) {
       return numero.toString(16);
     }
   }
+
+  function miFuncion() {
+    return {
+      nombre: "Hector",
+      edad: 22,
+      nacionalidad: "Argentino"
+    };
+  }
+  
