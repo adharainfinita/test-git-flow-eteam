@@ -6,7 +6,7 @@ function laCajaDePandora(numero) {
     }
 }
 
-function miFuncion() {
+function funciondeyo() {
     return {
       nombre: "LauPerez",
       edad: 18,
