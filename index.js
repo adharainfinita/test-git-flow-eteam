@@ -5,3 +5,11 @@ function laCajaDePandora(numero) {
         return numero.toString(16)
     }
 }
+
+function miFuncion() {
+    return {
+      nombre: "LauPerez",
+      edad: 18,
+      nacionalidad: "Colombia"
+    };
+  }
