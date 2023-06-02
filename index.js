@@ -1,18 +1,27 @@
-function laCajaDePandora(numero) {
-    if (numero % 2 === 0) {
-      // El número es par, convertir a binario
-      return numero.toString(2);
-    } else {
-      // El número es impar, convertir a hexadecimal
-      return numero.toString(16);
-    }
-  }
 
-  function miFuncion() {
+function laCajaDePandora(numero){
+    if(numero / 2){
+        let binary = "";
+        while(numero > 0){
+            let digit = numero % 2;
+            numero = Math.floor(numero / 2);
+            binary = digit + binary;
+        }
+        return binary;
+    }
+    return numero.toString(16)
+    }
+
+function myName ({name, age, nationality}){
     return {
-      nombre: "Hector",
-      edad: 22,
-      nacionalidad: "Argentino"
-    };
-  }
+        name,
+        age,
+        nationality
+    }
+}
+
+myName("Adhara", 25, "argentinian");
+=======
+
   
+
