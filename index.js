@@ -21,7 +21,7 @@ function myName ({name, age, nationality}){
 }
 
 myName("Adhara", 25, "argentinian");
-=======
+
 
   
 
